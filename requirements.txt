@@ -1,0 +1,11 @@
+requests
+python-dotenv
+supabase
+psycopg2-binary
+Jinja2
+pydantic
+tqdm
+dnspython
+xmltodict
+rich
+playwright

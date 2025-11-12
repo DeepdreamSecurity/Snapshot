@@ -1,0 +1,81 @@
+{
+  "severity_order": [
+    "info",
+    "low",
+    "medium",
+    "high",
+    "critical"
+  ],
+  "nmap": {
+    "lite_args": [
+      "-Pn",
+      "-T4",
+      "--top-ports",
+      "100",
+      "-oX",
+      "-"
+    ],
+    "deep_args": [
+      "-Pn",
+      "-sV",
+      "-sC",
+      "-p-",
+      "--min-rate",
+      "2000",
+      "-oX",
+      "-"
+    ]
+  },
+  "subdomain_wordlist_lite": [
+    "www",
+    "mail",
+    "api",
+    "dev",
+    "test",
+    "staging",
+    "portal",
+    "app",
+    "admin",
+    "vpn"
+  ],
+  "subdomain_wordlist_deep": [
+    "www",
+    "mail",
+    "api",
+    "dev",
+    "test",
+    "staging",
+    "portal",
+    "app",
+    "admin",
+    "vpn",
+    "assets",
+    "beta",
+    "edge",
+    "cdn",
+    "old",
+    "legacy",
+    "files",
+    "blog",
+    "help",
+    "support",
+    "m",
+    "shop",
+    "secure",
+    "gw",
+    "office",
+    "owa",
+    "sso",
+    "auth",
+    "login",
+    "smtp",
+    "imap",
+    "pop",
+    "db"
+  ],
+  "dns_resolvers": [
+    "1.1.1.1",
+    "8.8.8.8",
+    "9.9.9.9"
+  ]
+}
